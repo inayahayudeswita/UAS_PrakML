@@ -27,10 +27,20 @@ Penelitian ini menggabungkan *Convolutional Neural Network (CNN)* sebagai arsite
 | ResNet50        | 94%     | 0.94     |
 
 ## Cara Menjalankan Proyek
-1. Buka Google Colab: https://colab.research.google.com/ 
-2. Upload salah satu file `.ipynb`:
-   - `capstone_densenetrcnn.ipynb`
-   - `effecnet-diaretina.ipynb`
-   - `restnet_cnn.ipynb`
-3. Jalankan sel notebook dari atas ke bawah
-4. Pastikan kamu sudah meng-upload dataset dari [Kaggle](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy)
+
+### Model DenseNet121 – (Google Colab)
+- Buka [Google Colab](https://colab.research.google.com/)
+- Upload file: `capstone_densenetrcnn.ipynb`
+- Dataset:  
+  [Diagnosis of Diabetic Retinopathy – Kaggle](https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy)
+- **Catatan:** Hasil output dan grafik sudah tersimpan dalam notebook.  
+  Kalau ingin menjalankan ulang, cukup klik "Runtime" → "Run all" (pastikan GPU aktif).
+
+### Model EfficientNetB0 & ResNet50 – (Kaggle Notebook)
+- Buka [Kaggle Notebooks](https://www.kaggle.com/code)
+- Upload file:
+  - `effecnet-diaretina.ipynb` (EfficientNetB0)
+  - `restnet_cnn.ipynb` (ResNet50)
+- Klik **"Connect"** ke GPU jika ingin menjalankan ulang
+- Klik **"Run All"** – atau cukup buka saja, karena:
+  > **Output hasil training & evaluasi sudah tersimpan otomatis di notebook!**
