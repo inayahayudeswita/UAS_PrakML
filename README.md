@@ -25,3 +25,10 @@ Penelitian ini menggabungkan *Convolutional Neural Network (CNN)* sebagai arsite
 | DenseNet121     | 97%     | 0.97     |
 | EfficientNetB0  | 94%     | 0.94     |
 | ResNet50        | 94%     | 0.94     |
+
+### Tools & Framework:
+- Python 3.x
+- TensorFlow / Keras
+- OpenCV
+- Google Colab (GPU Tesla T4/P100)
+
