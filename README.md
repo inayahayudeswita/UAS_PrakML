@@ -26,12 +26,6 @@ Penelitian ini menggabungkan *Convolutional Neural Network (CNN)* sebagai arsite
 | EfficientNetB0  | 94%     | 0.94     |
 | ResNet50        | 94%     | 0.94     |
 
-### Tools & Framework:
-- Python 3.x
-- TensorFlow / Keras
-- OpenCV
-- Google Colab (GPU Tesla T4/P100)
-
 ## Cara Menjalankan Proyek
 1. Buka Google Colab: https://colab.research.google.com/ 
 2. Upload salah satu file `.ipynb`:
